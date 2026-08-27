@@ -1,0 +1,15 @@
+# Arquivos locais e temporários
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example
+
+# Pré-visualizações e caches locais
+.tmp/
+tmp/
+.cache/
+
+# PDFs de trabalho: as fontes oficiais devem permanecer como links no painel
+*.pdf
