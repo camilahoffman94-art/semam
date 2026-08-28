@@ -8,7 +8,7 @@ window.SEMAM_DATA = {
     coverage: '≈ 27%',
     modules: [
       { id: 'legislation', icon: '§', title: 'Legislação', text: '58 normas entre referências municipais, estaduais e federais, com fonte oficial e filtros.' },
-      { id: 'licenses', icon: '▣', title: 'Licenças emitidas', text: 'Registros localizados nos Diários Oficiais entre 27/08/2021 e 27/08/2026, com prazo publicado e fonte.' },
+      { id: 'licenses', icon: '▣', title: 'Licenças emitidas', text: 'Registros localizados nos Diários Oficiais entre 05/12/2018 e 27/08/2026, com prazo publicado e fonte.' },
       { id: 'organogram', icon: '⌘', title: 'Organograma SEMAM', text: 'Cargos, ocupantes e evidências separados por natureza do ato.' },
       { id: 'uc', icon: '◇', title: 'Unidades de Conservação', text: '8 APAs municipais, Parque Natural Municipal e conexões com UCs estaduais.' },
       { id: 'licensing', icon: '◌', title: 'Licenciamento · SIMULA', text: 'Acompanhamento local de processos, tipos de licença e fluxos.' },
