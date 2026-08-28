@@ -2,11 +2,13 @@ window.SEMAM_DATA = {
   general: {
     title: 'Painel Geral de Gestão Ambiental',
     subtitle: 'Gestão integrada do território, da legislação e das rotinas ambientais de Nova Iguaçu.',
-    normsCount: 58,
+    normsCount: 62,
     ucCount: 8,
     territory: '13.861 ha',
     coverage: '≈ 27%',
     modules: [
+      { id: 'management', icon: '▤', title: 'Gestão à vista', text: 'Indicadores operacionais, prioridades e leitura executiva da base ambiental.' },
+      { id: 'guard', icon: '🛡', title: 'Guarda Ambiental', text: 'Leis de criação, regulamentação, atribuições e proteção da fauna.' },
       { id: 'legislation', icon: '§', title: 'Legislação', text: '58 normas entre referências municipais, estaduais e federais, com fonte oficial e filtros.' },
       { id: 'licenses', icon: '▣', title: 'Licenças emitidas', text: 'Registros localizados nos Diários Oficiais entre 05/12/2018 e 27/08/2026, com prazo publicado e fonte.' },
       { id: 'organogram', icon: '⌘', title: 'Organograma SEMAM', text: 'Cargos, ocupantes e evidências separados por natureza do ato.' },
@@ -18,6 +20,10 @@ window.SEMAM_DATA = {
       { id: 'glossary', icon: 'Aa', title: 'Glossário', text: 'Siglas e conceitos para leitura padronizada do painel.' }
     ],
     legislation: [
+      { id: 'G01', name: 'Lei nº 2.868/1997', title: 'Diretrizes da Política Municipal de Meio Ambiente', sphere: 'Municipal', theme: 'Guarda Ambiental · base', year: 1997, source: 'SEMAM / Prefeitura', url: 'https://www.novaiguacu.rj.gov.br/semam/wp-content/uploads/sites/20/2023/08/lei-no-2868_1997_politica-municipal-meio-ambiente_comdema_fmma_pag-16-a-19-1-1.pdf', relation: 'base da política ambiental' },
+      { id: 'G02', name: 'Lei nº 4.160/2012', title: 'Cria a Guarda Municipal Ambiental de Nova Iguaçu', sphere: 'Municipal', theme: 'Guarda Ambiental · criação', year: 2012, source: 'Procuradoria Geral do Município', url: 'https://pgm.novaiguacu.rj.gov.br/Documentos/LeisOrdinarias/Leis-Ordinarias-2010-2019/Lei%20n%C2%B0%204.160%2C%20de%2028.03.2012%20-%20Cria%20a%20Guarda%20Municipal%20Ambiental%20de%20NI%20e%20autoriza%20contrata%C3%A7%C3%A3o%20excepcional%20nos%20termos%20do%20art.%2037%2C%20IX%2C%20da%20CF..pdf', relation: 'cria a Guarda Ambiental' },
+      { id: 'G03', name: 'Lei nº 4.284/2013', title: 'Regulamenta a Guarda Municipal Ambiental', sphere: 'Municipal', theme: 'Guarda Ambiental · atribuições', year: 2013, source: 'Procuradoria Geral do Município', url: 'https://pgm.novaiguacu.rj.gov.br/Documentos/LeisOrdinarias/Leis-Ordinarias-2010-2019/Lei%20n%C2%B0%204.284%2C%20de%2028.06.2013%20-%20Regulamenta%20a%20Guarda%20Municipal%20Ambiental..pdf', relation: 'regulamenta a Lei nº 4.160/2012' },
+      { id: 'G04', name: 'Lei nº 4.922/2021', title: 'Altera a Lei nº 4.284/2013 sobre animais silvestres', sphere: 'Municipal', theme: 'Guarda Ambiental · fauna', year: 2021, source: 'Procuradoria Geral do Município', url: 'https://pgm.novaiguacu.rj.gov.br/Documentos/LeisOrdinarias/Leis-Ordinarias-2020-2026/Lei%20n%C2%B0%204.922%2C%20de%2009.04.2021%20-%20Altera%20a%20reda%C3%A7%C3%A3o%20da%20Lei%20n%C2%B0%204.284%2C%20de%2028.06.2013%2C%20que%20regulamenta%20a%20Guarda%20Municipal%20Ambiental%20%28animais%20silvestres%29..pdf', relation: 'altera a Lei nº 4.284/2013' },
       { id: 'L47', name: 'Lei Federal nº 15.190/2025', title: 'Nova Lei de Licenciamento Ambiental', sphere: 'Federal', theme: 'Licenciamento', year: 2025, source: 'Planalto', url: 'https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15190.htm' },
       { id: 'L48', name: 'Decreto nº 13.922/2025', title: 'Composição do CONDEMA (2023–2027)', sphere: 'Municipal', theme: 'Política Ambiental', year: 2025, source: 'DOE-NI · 10/04/2025', url: 'https://pgm.novaiguacu.rj.gov.br/Documentos/Decretos/Decretos-2020-2026/Decreto%20n%C2%B0%2013.922,%20de%2009.04.2025%20-%20Altera%20a%20composi%C3%A7%C3%A3o%20do%20CONDEMA%20para%20o%20mandato%202023%20a%202027.pdf' },
       { id: 'L49', name: 'Portaria SEMAM nº 006/2025', title: 'Conselho Gestor da APA Guandu-Açu', sphere: 'Municipal', theme: 'Unidades de Conservação', year: 2025, source: 'DOE-NI · 10/04/2025', url: 'https://www.novaiguacu.rj.gov.br/wp/wp-content/uploads/2025/04/pmni_de_10-04-2025_-_quinta-feira_09064358.pdf' },
